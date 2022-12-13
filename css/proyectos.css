@@ -1,0 +1,96 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.imagen{
+    object-fit:fill;
+    height: 500px;
+    width: 600px;
+    padding: 10px 80px 100px 100px;
+}
+
+.seccion-beneficios{
+    margin-bottom: 20%;
+}
+
+#bg-contacto{
+    position: relative;
+    top:-235px;
+}
+
+.contenido-portafolio{
+    margin-bottom: 10%;
+}
+
+#seccion-contacto{
+    
+    min-height: 500px;
+    position: relative;
+    background-color: black;
+    padding-bottom: 250px;
+}
+
+.portafolio img{
+    height: 25rem;
+    border-radius: 10%;
+    border: #1b2a4e !important;
+    border-width: 25% !important;
+    background-color: #1b2a4e !important;
+    object-fit:fill;
+}
+
+#contenedor-formulario{
+    position:absolute;
+    top: 45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    max-width: 500px;
+    margin-top: 2%;
+}
+
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+}
+
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+.lista{
+    border-radius: 5%;
+}
+
+@media(max-width:1100px){
+    #bg-contacto{
+        position: relative;
+        top:-170px;
+    }
+}
+
+@media(max-width: 990px){
+    #bg-contacto{
+        top:-130px;
+    }
+}
+
+@media (max-width: 768px){
+    #bg-contacto{
+        top:-110px;
+    }
+}
+
+@media(max-width: 576px){
+    #bg-contacto{
+        top:-110px;
+    }
+}
